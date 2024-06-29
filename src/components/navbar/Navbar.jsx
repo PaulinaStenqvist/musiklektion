@@ -13,7 +13,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <Link to="/" className="navbar-logo">
-          NATURE
+          Musiklektioner
           <Icons.FaTree />
         </Link>
         <ul className="nav-items">
