@@ -1,29 +1,34 @@
-import React from 'react';
-import Navbar from './components/navbar/Navbar';
-import './App.css';
-import Home from './components/pages/Home';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Services from './components/pages/Services';
-import Products from './components/pages/Products';
-import ContactUs from './components/pages/ContactUs';
-import SignUp from './components/pages/SignUp';
-import Marketing from './components/pages/Marketing';
-import Consulting from './components/pages/Consulting';
+import React from "react";
+import "./App.css";
+import { Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/navbar/Navbar";
+import Home from "./pages/Home";
+import Consulting from "./pages/Consulting";
+import Contactus from "./pages/Contactus";
+import Design from "./pages/Design";
+import Development from "./pages/Development";
+import Marketing from "./pages/Marketing";
+import Products from "./pages/Products";
+import Services from "./pages/Services";
+import Signup from "./pages/Signup";
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path='/' exact component={Home} />
-        <Route path='/services' component={Services} />
-        <Route path='/products' component={Products} />
-        <Route path='/contact-us' component={ContactUs} />
-        <Route path='/sign-up' component={SignUp} />
-        <Route path='/marketing' component={Marketing} />
-        <Route path='/consulting' component={Consulting} />
-      </Routes>
-    </Router>
+    <>
+      
+        <Navbar />
+        <Routes>
+          <Route path="/"component={<Home/>}></Route>
+          <Route path="/contactus" component={<Contactus/>}></Route>
+          <Route path="/products" component={<Products/>}></Route>
+          <Route path="/services" component={<Services/>}></Route>
+          <Route path="/signup" component={<Signup/>}></Route>
+          <Route path="/marketing" component={<Marketing/>}></Route>
+          <Route path="/development" component={<Development/>}></Route>
+          <Route path="/design" component={<Design/>}></Route>
+          <Route path="/consulting" component={<Consulting/>}></Route>
+        </Routes>
+    </>
   );
 }
 
