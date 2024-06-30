@@ -7,8 +7,8 @@ function Uppgifter() {
   return (
     <div>
       <h1 className="test">hellu</h1>
-    < /Upload>
-    
+      <upload />
+
     </div>
   );
 }
