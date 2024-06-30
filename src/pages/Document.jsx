@@ -1,5 +1,4 @@
 import React from "react";
-import Upload from "../components/upload/Upload";
 
 function Document() {
   return (

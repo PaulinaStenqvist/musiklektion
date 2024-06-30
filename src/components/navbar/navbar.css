@@ -1,6 +1,6 @@
 .navbar {
   height: 10vh;
-  background: #1b1919;
+  background: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,11 +9,11 @@
 .navbar-logo {
   color: white;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.75rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 10rem;
+  width: 8rem;
 }
 
 .nav-items {
