@@ -18,14 +18,14 @@ function App() {
       
         <Navbar />
         <Routes>
-          <Route path="/"component={<Home/>}></Route>
-          <Route path="/hogstaidet" component={<Hogstadiet/>}></Route>
-          <Route path="/mellanstadiet" component={<Mellanstadiet/>}></Route>
-          <Route path="/document" component={<Document/>}></Route>
-          <Route path="/login" component={<Login/>}></Route>
-          <Route path="/latar" component={<Latar/>}></Route>
-          <Route path="/ovrigt" component={<Ovrigt/>}></Route>
-          <Route path="/uppgifter" component={<Uppgifter/>}></Route>
+          <Route path="/" element={<Home/>}>
+          <Route path="/hogstaidet" element={<Hogstadiet/>}>
+          <Route path="/mellanstadiet" element={<Mellanstadiet/>}>
+          <Route path="/document" element={<Document/>}>
+          <Route path="/login" element={<Login/>}>
+          <Route path="/latar" element={<Latar/>}>
+          <Route path="/ovrigt" element={<Ovrigt/>}>
+          <Route path="/uppgifter" element={<Uppgifter/>}> 
         </Routes>
         
         <Footer />
