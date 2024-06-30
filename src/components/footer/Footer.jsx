@@ -1,23 +1,16 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import * as Icons from 'react-icons/fa';
-import '../footer/footer.css';
-import { navItems } from '../NavItems';
+import React from "react";
+import './footer.css';
 
-function Footer() {
- 
+function  Footer () {
   return (
-    <>
-      <nav className='footer'>
-        <Link to='/' className='footer-logo'>
-          Musiklektioner
-          <Icons.FaTree />
-        </Link>
-       
+    <div className="container">
+        <div className="logo">
+          <h1 className="logoText">Musiklektioner</h1>
+        </div>
         
-      </nav>
-    </>
+    </div>
+      
   );
-}
+};
 
 export default Footer;
