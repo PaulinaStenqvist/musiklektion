@@ -18,19 +18,19 @@ function App() {
       
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home/>}>
-          <Route path="/hogstaidet" element={<Hogstadiet/>}>
-          <Route path="/mellanstadiet" element={<Mellanstadiet/>}>
-          <Route path="/document" element={<Document/>}>
-          <Route path="/login" element={<Login/>}>
-          <Route path="/latar" element={<Latar/>}>
-          <Route path="/ovrigt" element={<Ovrigt/>}>
-          <Route path="/uppgifter" element={<Uppgifter/>}> 
+          <Route path="/" element={<Home/>}></Route>
+          <Route path="/hogstaidet" element={<Hogstadiet/>}></Route>
+          <Route path="/mellanstadiet" element={<Mellanstadiet/>}></Route>
+          <Route path="/document" element={<Document/>}></Route>
+          <Route path="/login" element={<Login/>}></Route>
+          <Route path="/latar" element={<Latar/>}></Route>
+          <Route path="/ovrigt" element={<Ovrigt/>}></Route>
+          <Route path="/uppgifter" element={<Uppgifter/>}></Route>
         </Routes>
         
         <Footer />
     </>
   );
-}
+};
 
 export default App;
