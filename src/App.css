@@ -7,6 +7,21 @@
   font-family: "Merriweather", sans-serif;
 }
 
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+header {
+  min-height: 50px;
+  background: lightcyan;
+}
+
+footer {
+  min-height: 50px;
+  background: PapayaWhip;
+}
+
 .home,
 .hogstadiet,
 .mellanstadiet,

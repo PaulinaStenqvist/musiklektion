@@ -27,6 +27,8 @@ function App() {
           <Route path="/ovrigt" component={<Ovrigt/>}></Route>
           <Route path="/uppgifter" component={<Uppgifter/>}></Route>
         </Routes>
+        <Navbar />
+          {children}
         <Footer />
     </>
   );
