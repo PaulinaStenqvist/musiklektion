@@ -8,7 +8,7 @@ import Latar from "./pages/Latar";
 import Mellanstadiet from "./pages/Mellanstadiet";
 import Hogstadiet from "./pages/Hogstadiet";
 import Ovrigt from "./pages/Ovrigt";
-import Uppgifter from "./pages/Uppgifter";
+import Uppgifter from "./pages/uppgifter/Uppgifter";
 import Login from "./pages/Login";
 import Footer from "./components/footer/Footer";
 

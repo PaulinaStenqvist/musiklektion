@@ -5,7 +5,7 @@ function  Footer () {
   return (
     <div className="container">
         <div className="logo">
-          <h1 className="logoText">Musiklektioner</h1>
+          <h1 className="logoText">Musiklektioner - Footer</h1>
         </div>
         
     </div>
