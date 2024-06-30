@@ -10,6 +10,7 @@ import Hogstadiet from "./pages/Hogstadiet";
 import Ovrigt from "./pages/Ovrigt";
 import Uppgifter from "./pages/Uppgifter";
 import Login from "./pages/Login";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/ovrigt" component={<Ovrigt/>}></Route>
           <Route path="/uppgifter" component={<Uppgifter/>}></Route>
         </Routes>
+        <Footer />
     </>
   );
 }

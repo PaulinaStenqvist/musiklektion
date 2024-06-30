@@ -1,21 +1,24 @@
-.document-submenu {
+.documents-submenu {
     width: 10rem;
     position: absolute;
-    top: 67px;
+    top: 68px;
     list-style: none;
     text-align: start;
+    border-radius: 5px;
+
   }
   
-  .document-submenu li {
-    background: rgb(0, 212, 212);
+  .documents-submenu li {
+    background: rgba(235, 1, 114, 0.911);
     cursor: pointer;
+
   }
   
-  .document-submenu li a:hover {
-    background: rgb(0, 175, 175);
+  .documents-submenu li a:hover {
+    background: rgba(235, 1, 114, 0.984);
   }
   
-  .document-submenu.clicked {
+  .documents-submenu.clicked {
     display: none;
   }
   

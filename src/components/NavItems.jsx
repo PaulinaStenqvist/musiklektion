@@ -21,7 +21,7 @@ export const navItems = [
         id: 2,
         title: 'Högstadiet',
         path: './hogstadiet',
-        cName: 'submenu-item', // fixed typo in path
+        cName: 'submenu-item', 
       },
       {
         id: 3,
