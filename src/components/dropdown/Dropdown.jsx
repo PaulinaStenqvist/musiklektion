@@ -1,18 +1,17 @@
-import React, { useState } from "react";
-import { documentDropdown } from "../NavItems";
-import { Link } from "react-router-dom";
-import "./dropdown.css";
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import './dropdown.css';
 
-function Dropdown() {
+function Dropdown({ dropdownItems }) {
   const [dropdown, setDropdown] = useState(false);
 
   return (
     <>
       <ul
-        className={dropdown ? "documents-submenu clicked" : "documents-submenu"}
+        className={dropdown ? 'documents-submenu clicked' : 'documents-submenu'}
         onClick={() => setDropdown(!dropdown)}
       >
-        {documentDropdown.map((item) => {
+        {dropdownItems.map((item) => {
           return (
             <li key={item.id}>
               <Link
