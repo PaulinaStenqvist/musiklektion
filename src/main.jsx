@@ -8,8 +8,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <App />
-      <Route path="/uppgifter" component={<Uppgifter/>}></Route>
-
     </BrowserRouter>
   </React.StrictMode>
 );
