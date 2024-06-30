@@ -1,53 +1,53 @@
 export const navItems = [
     {
       id: 1,
-      title: "Home",
+      title: "Hem",
       path: "./",
       cName: "nav-item",
     },
     {
       id: 2,
-      title: "Services",
-      path: "./services",
+      title: "Dokument",
+      path: "./document",
       cName: "nav-item",
     },
     {
       id: 3,
-      title: "Products",
-      path: "./products",
+      title: "Låtar",
+      path: "./latar",
       cName: "nav-item",
     },
     {
       id: 4,
-      title: "Contact Us",
-      path: "./contactus",
+      title: "Uppgifter",
+      path: "./uppgifter",
       cName: "nav-item",
     },
   ];
   
-  export const serviceDropdown = [
+  export const documentDropdown = [
     {
       id: 1,
-      title: "Marketing",
-      path: "./marketing",
+      title: "Mellanstadiet",
+      path: "./mellanstadiet",
       cName: "submenu-item",
     },
     {
       id: 2,
-      title: "Consulting",
-      path: "./consulting",
+      title: "Högstadiet",
+      path: "./hostaidet",
       cName: "submenu-item",
     },
     {
       id: 3,
-      title: "Design",
-      path: "./design",
+      title: "Övrigt",
+      path: "./ovrigt",
       cName: "submenu-item",
     },
     {
       id: 4,
-      title: "Development",
-      path: "./development",
+      title: "Övrigt",
+      path: "./ovrigt",
       cName: "submenu-item",
     },
   ];

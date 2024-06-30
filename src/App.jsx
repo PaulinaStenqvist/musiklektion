@@ -3,14 +3,13 @@ import "./App.css";
 import { Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/Home";
-import Consulting from "./pages/Consulting";
-import Contactus from "./pages/Contactus";
-import Design from "./pages/Design";
-import Development from "./pages/Development";
-import Marketing from "./pages/Marketing";
-import Products from "./pages/Products";
-import Services from "./pages/Services";
-import Signup from "./pages/Signup";
+import Document from "./pages/Document";
+import Latar from "./pages/Latar";
+import Mellanstadiet from "./pages/Mellanstadiet";
+import Hogstadiet from "./pages/Hogstadiet";
+import Ovrigt from "./pages/Ovrigt";
+import Uppgifter from "./pages/Uppgifter";
+import Login from "./pages/Login";
 
 function App() {
   return (
@@ -19,14 +18,13 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/"component={<Home/>}></Route>
-          <Route path="/contactus" component={<Contactus/>}></Route>
-          <Route path="/products" component={<Products/>}></Route>
-          <Route path="/services" component={<Services/>}></Route>
-          <Route path="/signup" component={<Signup/>}></Route>
-          <Route path="/marketing" component={<Marketing/>}></Route>
-          <Route path="/development" component={<Development/>}></Route>
-          <Route path="/design" component={<Design/>}></Route>
-          <Route path="/consulting" component={<Consulting/>}></Route>
+          <Route path="/hogstaidet" component={<Hogstadiet/>}></Route>
+          <Route path="/mellanstadiet" component={<Mellanstadiet/>}></Route>
+          <Route path="/document" component={<Document/>}></Route>
+          <Route path="/login" component={<Login/>}></Route>
+          <Route path="/latar" component={<Latar/>}></Route>
+          <Route path="/ovrigt" component={<Ovrigt/>}></Route>
+          <Route path="/uppgifter" component={<Uppgifter/>}></Route>
         </Routes>
     </>
   );

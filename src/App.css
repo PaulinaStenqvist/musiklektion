@@ -14,8 +14,8 @@
 .development,
 .marketing,
 .products,
-.services,
-.signup {
+.document,
+.login {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,10 +55,10 @@
   background-image: url(./images/contactus.jpg);
 }
 
-.services {
-  background-image: url(./images/services.jpg);
+.document {
+  background-image: url(./images/document.jpg);
 }
 
-.signup {
-  background-image: url(./images/signup.jpg);
+.login {
+  background-image: url(./images/login.jpg);
 }
